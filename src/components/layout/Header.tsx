@@ -144,8 +144,28 @@ const Header: React.FC = () => {
             </svg>
           )}
         </button>
-        <img src={bellIcon} alt="Notifications" className="h-6 w-6 cursor-pointer" />
-        <img src={settingsIcon} alt="Settings" className="h-6 w-6 cursor-pointer" />
+        {/* Notification Button */}
+        <button
+          style={{
+            borderColor: '#2c2c2c',
+            borderWidth: '2px',
+          }}
+          className="bg-[#1a1a1a] border px-2 py-1.5 rounded-xl text-sm transition flex items-center justify-center"
+          aria-label="Notifications"
+        >
+          <img src={bellIcon} alt="Notifications" className="h-5 w-5 cursor-pointer" />
+        </button>
+        {/* Settings Button */}
+        <button
+          style={{
+            borderColor: '#2c2c2c',
+            borderWidth: '2px',
+          }}
+          className="bg-[#1a1a1a] border px-2 py-1.5 rounded-xl text-sm transition flex items-center justify-center"
+          aria-label="Settings"
+        >
+          <img src={settingsIcon} alt="Settings" className="h-5 w-5 cursor-pointer" />
+        </button>
       </div>
     </header>
   );
