@@ -23,7 +23,7 @@ const navItems = [
 ];
 
 const Header: React.FC = () => {
-  const { isDark, toggleTheme } = useTheme();
+  const { isDark } = useTheme();
   const location = useLocation();
   const [isMoreOpen, setIsMoreOpen] = React.useState(false);
 

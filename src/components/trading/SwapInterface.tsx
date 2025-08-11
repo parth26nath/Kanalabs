@@ -4,7 +4,6 @@ import {
   Repeat,
   ArrowDownUp,
   ChevronDown,
-  Settings,
   LayoutGrid,
 } from "lucide-react";
 
