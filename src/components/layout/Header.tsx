@@ -188,7 +188,7 @@ const Header: React.FC = () => {
             <span className="font-manrope font-bold">Connect wallet</span>
           </button>
         )}
-        <button
+        {/* <button
           onClick={toggleTheme}
           className="p-2 rounded-lg transition-colors"
           aria-label="Toggle theme"
@@ -207,7 +207,7 @@ const Header: React.FC = () => {
               />
             </svg>
           )}
-        </button>
+        </button> */}
         {/* Notification Button */}
         <button
           style={{
