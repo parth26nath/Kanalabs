@@ -10,8 +10,8 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="h-screen bg-black flex flex-col overflow-hidden">
       <Header />
-      <main className="flex-1 overflow-auto px-4 py-4">
-        <div className="container mx-auto h-full">
+      <main className="flex-1 overflow-auto px-2 py-1 ">
+        <div className=" w-full h-full">
           {children}
         </div>
       </main>
